@@ -84,11 +84,5 @@ jobs:
       - name: Deploy application
         run: |
           echo "🚀 Deploying to production..."
-          # ── Replace the lines below with your actual deploy command ──────
-          # Examples:
-          #   SSH deploy  → ssh user@server "cd /app && git pull && npm ci && pm2 restart app"
-          #   Docker      → docker build -t myapp . && docker push myrepo/myapp
-          #   AWS S3      → aws s3 sync ./dist s3://my-bucket --delete
-          #   Heroku      → git push heroku main
           echo "Deployment complete"
 
