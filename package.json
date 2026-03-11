@@ -1,0 +1,20 @@
+{
+  "name": "ci-cd-practice",
+  "version": "1.0.0",
+  "description": "A sample Node.js app with a full CI/CD pipeline via GitHub Actions",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "node src/index.js",
+    "build": "echo 'Build step: copy files to dist/' && mkdir -p dist && cp -r src/* dist/",
+    "test": "jest --coverage",
+    "lint": "eslint src/**/*.js"
+  },
+  "keywords": ["ci", "cd", "github-actions"],
+  "author": "",
+  "license": "MIT",
+  "devDependencies": {
+    "eslint": "^8.57.0",
+    "jest": "^29.7.0"
+  }
+}
+
